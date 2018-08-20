@@ -1,0 +1,40 @@
+Victor,
+ 
+I do not think this is a Defect, since the functionality is working as expected.
+ 
+I also believe I know where the 500 error is coming from.  We have a BR called “Chat Prevent user ending chat” on the chat table.  The BR will set the setAbortAction to true, which will stop the end user from closing the chat sessions. which we use to bypass the normal chat workflow.    This is likely just a side effect of this BR aborting the normal processing, and nothing to worry about.
+ 
+I was able reproduce this 500 error in dxcstusbox08, and after I disabled this BR, and tested with the end user closing the chat, this error went away.
+ 
+Dan
+ 
+ 
+From: Martinetti, Victor 
+Sent: Tuesday, December 19, 2017 2:31 PM
+To: Khan, Mohd Asad <mkhan240@csc.com>; Tevis, Dan C (GIT Global Delivery US) <dan.tevis@hpe.com>
+Cc: Tran, Thanh Quoc <ttran97@csc.com>; Nguyen, Hung Duc <hnguyen274@csc.com>
+Subject: FW: ServiceNow Chat Portal Function Issue -- 500 error
+ 
+Asad/Dan,
+Please review the Chat 500 error found by the Performance Testing team in the Chrome Developer Tools about 1/3 of the way down this thread, then let me know if you agree that no defect should be logged since Thanh is seeing no functional impact.  It would be helpful to know more about why this is happening so that we can put other teams at ease if appropriate.
+ 
+Thank you,
+Victor
+ 
+	From: Tran, Thanh Quoc [mailto:ttran97@csc.com] 
+	Sent: Tuesday, December 19, 2017 11:57 AM
+	To: Martinetti, Victor <victor.martinetti@hpe.com>; Nguyen, Hung Duc <hnguyen274@csc.com>
+	Subject: RE: ServiceNow Chat Portal Function Issue -- 500 error
+	 
+	Hi Victor,
+	 
+	Just quick check on SB2 Jakarta and still observing the issue
+	
+	 
+	Same error on DevTest and DevQA.
+	Not have any defect logged because it doesn’t impact to the function, everything is working normally.
+	And this is something like performance or networking issue, which fall out of our functional testing scope .
+	 
+	Thanks and best regards
+	Thanh Q. Tran
+	 
