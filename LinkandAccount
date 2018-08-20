@@ -1,0 +1,102 @@
+Evn Info:
+
+Sandbox2:
+
+	URL
+	Sandbox	https://cscsandbox2.service-now.com/
+	Portal	https://cscsandbox2.service-now.com/selfservice/navpage.do 
+	
+	Account:
+	Username	Password
+	lian.kong@dxc.com	1234
+	qing-ju.li@dxc.com	1234
+	wen-chaol@dxc.com	1234
+	hui.luo@dxc.com	Password123！
+	liang.chen9@dxc.com	1234
+	xin-lei.zhan@dxc.com	1234
+	xiyi.zeng@hpe.com	1234
+	Admin: Gioan Doan
+	
+Dxcstusbox08:
+	
+		URL:
+		Sandbox	https://dxcstusbox08.service-now.com/
+		Portal	https://dxcstusbox08.service-now.com//selfservice/navpage.do 
+		
+		Account:
+		Username	Password
+		liang.chen9@dxc.com	1234
+		xin-lei.zhan@dxc.com	1234
+	
+	
+Dev QA:
+
+	URL:
+	Sandbox	https://cscdevqa.service-now.com
+	Portal	https://cscdevqa.service-now.com/selfservice/navpage.do 
+	
+	Account
+	Username	Password
+	hui.luo@dxc.com	Password123!
+Admin: Gioan Doan
+
+-----------------------------------------------------------------------------
+PT TEST ACCOUNT 
+
+Number	Round Robin	QueueName	Multiple Language Chat Queue	CompanyName	AssignmentGroup	AgentName	CustomerName	SupervisorName
+Group 1	PT_CHAT_ROUND_ROBIN_0001	PT_CHAT_QUEUE_0001	PT_CHAT_QUEUE_LANUAGE_EN_0001	PT_COMPANY_0001	PT_CHAT_GROUP_0001	PT_CHAT_AGENT_USER_0001	PT_CHAT_CUSTOMER_USER_0001	PT_CHAT_SUPERVISOR_USER_0001
+(Cherry)
+Group 2	PT_CHAT_ROUND_ROBIN_0002	PT_CHAT_QUEUE_0002	PT_CHAT_QUEUE_LANUAGE_EN_0002	PT_COMPANY_0002	PT_CHAT_GROUP_0002	PT_CHAT_AGENT_USER_0002	PT_CHAT_CUSTOMER_USER_0002	PT_CHAT_SUPERVISOR_USER_0002
+(Silvia)
+Group 3	PT_CHAT_ROUND_ROBIN_0003	PT_CHAT_QUEUE_0003	PT_CHAT_QUEUE_LANUAGE_EN_0003	PT_COMPANY_0003	PT_CHAT_GROUP_0003	PT_CHAT_AGENT_USER_0003	PT_CHAT_CUSTOMER_USER_0003	PT_CHAT_SUPERVISOR_USER_0003
+(Raffar)
+Group 4	PT_CHAT_ROUND_ROBIN_0004	PT_CHAT_QUEUE_0004	PT_CHAT_QUEUE_LANUAGE_EN_0004	PT_COMPANY_0004	PT_CHAT_GROUP_0004	PT_CHAT_AGENT_USER_0004	PT_CHAT_CUSTOMER_USER_0004	PT_CHAT_SUPERVISOR_USER_0004
+(Grace)
+Group 5	PT_CHAT_ROUND_ROBIN_0005	PT_CHAT_QUEUE_0005	PT_CHAT_QUEUE_LANUAGE_EN_0005	PT_COMPANY_0005	PT_CHAT_GROUP_0005	PT_CHAT_AGENT_USER_0005	PT_CHAT_CUSTOMER_USER_0005	PT_CHAT_SUPERVISOR_USER_0005
+(Lillian)
+Group 6	PT_CHAT_ROUND_ROBIN_0006	PT_CHAT_QUEUE_0006	PT_CHAT_QUEUE_LANUAGE_EN_0006	PT_COMPANY_0006	PT_CHAT_GROUP_0006	PT_CHAT_AGENT_USER_0006	PT_CHAT_CUSTOMER_USER_0006	PT_CHAT_SUPERVISOR_USER_0006
+Group 7	PT_CHAT_ROUND_ROBIN_0007	PT_CHAT_QUEUE_0007	PT_CHAT_QUEUE_LANUAGE_EN_0007	PT_COMPANY_0007	PT_CHAT_GROUP_0007	PT_CHAT_AGENT_USER_0007	PT_CHAT_CUSTOMER_USER_0007	PT_CHAT_SUPERVISOR_USER_0007
+(Allen)
+Group 8	PT_CHAT_ROUND_ROBIN_0008	PT_CHAT_QUEUE_0008	PT_CHAT_QUEUE_LANUAGE_EN_0008	PT_COMPANY_0008	PT_CHAT_GROUP_0008	PT_CHAT_AGENT_USER_0008	PT_CHAT_CUSTOMER_USER_0008	PT_CHAT_SUPERVISOR_USER_0008
+
+-----------------------------------------------------------------------------
+Shared folder
+\\16.158.101.119\Performance_Testing\ServiceNow
+ 
+As we cannot access the shared folder on sever 16.158.101.119 now, I set up an FTP server on that server and we can access the shared files with FTP client.
+ 
+Download FTP Client: https://filezilla-project.org/download.php?type=client
+ 
+FTP Server Connect Information:
+	Host Name: 16.158.101.119
+	Port: 21
+	User Name: ftp_user
+	Password: Spring2018
+
+-----------------------------------------------------------------------------
+Tools and link to study new things
+	1. https://regexr.com/ 这个网站可以去看正则表达式
+	2. http://jsonviewer.stack.hu/ 这个可以转换json格式。
+	3. LR的一些帮助文档
+	https://lrhelp.saas.hpe.com/en/12.50/help/WebHelp/Content/TruClient/_tcs_r_functions.htm
+	https://lrhelp.saas.hpe.com/en/12.50/help/WebHelp/Content/TruClient/_tcs_r_functions.htm 
+	https://lrhelp.saas.hpe.com/en/12.55/help/WebHelp/Content/VuGen/tocs/toc_Async.htm 
+	
+	4. JsonPath的学习文档：
+	 https://github.com/json-path/JsonPath 
+	
+	5. PT team share related to LoadRunner
+	<\\16.158.101.119\Knowledge Share\Performance Knowledge Share\03 LR Knowledge\02_Scripting> 
+	\\16.158.101.119\Performance_Testing\ESM_Project 
+	https://ea2013.sharepoint.hpe.com/teams/TCOE-ESM/Performance/Shared%20Documents/Forms/AllItems.aspx
+	https://ea2013.sharepoint.hpe.com/teams/TCOE-ESM/Performance/ELabrary/Forms/AllItems.aspx?RootFolder=%2Fteams%2FTCOE%2DESM%2FPerformance%2FELabrary%2FPerformance%20Testing&FolderCTID=0x012000A4AA15A7A2DD4E4C864AD18F05B40C96&View=%7B5ABC1ABE%2DDD4D%2D4373%2D953A%2D74A83E10F399%7D 
+-----------------------------------------------------------------------------
+ServiceNow BaselinePT Project SVN:
+SVN	https://tongzhu3.asiapacific.hpqcorp.net:8443/svn/ServiceNow_BaselinePT/	
+Account	lian.kong	lian.kong
+	hui.luo	hui.luo
+	wenchao.li	wenchao.li
+	liang.chen	liang.chen
+	xinlei.zhan	xinlei.zhan
+
+-----------------------------------------------------------------------------
