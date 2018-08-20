@@ -1,0 +1,13 @@
+Contact list:
+Name	Role	Comments
+Larsen, Eric <elarsen@hpe.com>	Scrum master	Team Lead
+Kumar, Bimlesh  <bimlesh.kumar@hpe.com>	Architecture	
+Tran, Thanh Quoc <ttran97@csc.com>	Function Tester	Demo us the Chat Function on Oct. 31st 
+Martinetti, Victor <victor.martinetti@hpe.com>	Application Engineering lead (ServiceNow Chat Function)	
+Moiseyev, Alexis <amoiseyev@csc.com>	Chat Function Engineer?	He can help to provide the transactions log for simulating the base system load
+
+--------------------------------------------------------
+CATW:
+WBS:  US1-OEE01.10.01
+Attribute:  DEVOPS POC
+--------------------------------------------------------
